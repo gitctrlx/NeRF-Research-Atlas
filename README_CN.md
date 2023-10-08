@@ -1,8 +1,4 @@
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)]()
-
-[![Ask Me Anything !](https://img.shields.io/badge/Ask me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-
-[![Awesome](https://raw.githubusercontent.com/1438802682/picgo_image/main/badge.svg)](https://awesome.re)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)]()[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)[![Awesome](https://raw.githubusercontent.com/1438802682/picgo_image/main/badge.svg)](https://awesome.re)
 
 # NeRF 研究分类仓库
 
