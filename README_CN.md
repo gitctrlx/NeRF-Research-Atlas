@@ -6,7 +6,7 @@
 
 ## 仓库结构
 
-![](NeRF Research Classification (NeRF研究分类).png)
+![](https://github.com/1438802682/NeRF-Research-Atlas/blob/main/NeRF Research Classification (NeRF研究分类).png)
 
 - **基本原理(Fundamentals):** 深入探讨 NeRF 的核心原理，包括基于 mip-NeRF 的方法、基于变形的技术，以及深度/点云监督。
 - **速度优化(Speed Optimization):** 探索旨在提高 NeRF 算法速度的各种方法，包括非预计算(non-baked)、预计算(baked)和无多层感知机(MLP-less)方法。
