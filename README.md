@@ -6,11 +6,9 @@
 
 Welcome to the NeRF Research Classification Repository! This repository is dedicated to categorizing and summarizing the burgeoning literature in the field of Neural Radiance Fields (NeRF). The aim is to create a structured and easily navigable roadmap to help researchers, students, and enthusiasts delve into NeRF-related studies with ease.
 
-
-
 ## Repository Structure
 
-![NeRF Research Classification](https://github.com/1438802682/NeRF-Research-Atlas/blob/main/NeRF Research Classification.png)
+![NeRF Research Classification](https://github.com/1438802682/NeRF-Research-Atlas/blob/main/NeRF%20Research%20Classification.png)
 
 - **Fundamentals:** Delve into the core principles underlying NeRF including mip-NeRF based methods, deformation-based techniques, and depth/point cloud supervision.
   

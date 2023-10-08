@@ -1,12 +1,14 @@
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)]()
+[![Ask Me Anything !](https://img.shields.io/badge/Ask me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![Awesome](https://raw.githubusercontent.com/1438802682/picgo_image/main/badge.svg)](https://awesome.re)
+
 # NeRF 研究分类仓库
 
 欢迎来到 NeRF 研究分类仓库！本仓库致力于分类和总结神经辐射场(NeRF)领域中日益增长的文献。目标是创建一个结构化且易于导航的路线图，以帮助研究人员、学生和爱好者轻松深入 NeRF 相关研究。
 
-
-
 ## 仓库结构
 
-![](https://github.com/1438802682/NeRF-Research-Atlas/blob/main/NeRF Research Classification (NeRF研究分类).png)
+![](https://github.com/1438802682/NeRF-Research-Atlas/blob/main/NeRF%20Research%20Classification%20(NeRF%E7%A0%94%E7%A9%B6%E5%88%86%E7%B1%BB).png)
 
 - **基本原理(Fundamentals):** 深入探讨 NeRF 的核心原理，包括基于 mip-NeRF 的方法、基于变形的技术，以及深度/点云监督。
 - **速度优化(Speed Optimization):** 探索旨在提高 NeRF 算法速度的各种方法，包括非预计算(non-baked)、预计算(baked)和无多层感知机(MLP-less)方法。
