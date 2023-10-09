@@ -19,7 +19,7 @@
 
 本仓库中的每个类别都提供了经过策划的论文列表，以及简要描述，以提供对研究重点和贡献的 insight。我们欢迎贡献和建议，以便使此仓库与 NeRF 领域的最新进展保持同步。
 
-## 1. Fundamentals (基本原理)
+### 1. Fundamentals (基本原理)
 
 - 1.1 mip-NeRF Based (基于mip-NeRF)
   - 介绍和探讨基于多级金字塔(mip)的NeRF方法，以及如何通过使用这种技术来改进NeRF的性能和效果。
@@ -32,7 +32,7 @@
 - 1.5 Hybrid Methods (混合方法)
   - 探讨结合多种技术（如基于变形的方法和深度监督）来改善NeRF性能的方法。
 
-## 2. Speed Optimization (速度优化)
+### 2. Speed Optimization (速度优化)
 
 - 2.1 Non-baked Methods (非预计算方法)
   - 研究和分析非预计算或实时NeRF技术，以及如何通过不使用预计算来优化速度。
@@ -43,7 +43,7 @@
 - 2.4 Hardware Acceleration (硬件加速)
   - 分析利用GPU, TPU等硬件资源来加速NeRF计算的方法和技术。
 
-## 3. Sparse View Synthesis (稀疏视图合成)
+### 3. Sparse View Synthesis (稀疏视图合成)
 
 - 3.1 Cost Volume Approaches (代价体积方法)
   - 通过代价体积来解决NeRF中的稀疏视图合成问题的方法。
@@ -52,7 +52,7 @@
 - 3.3 Domain Adaptation (领域适应)
   - 探讨如何通过领域适应技术来提高NeRF在稀疏视图合成中的性能。
 
-## 4. Conditional NeRF (条件NeRF)
+### 4. Conditional NeRF (条件NeRF)
 
 - 4.1 GAN and VAE Methods (GAN和VAE方法)
   - 利用生成对抗网络(GAN)和变分自编码器(VAE)来实现条件NeRF的方法。
@@ -61,7 +61,7 @@
 - 4.3 Conditional Training Techniques (条件训练技术)
   - 探讨如何利用条件训练技术来优化NeRF模型的学习过程。
 
-## 5. Composition Techniques (组合技术)
+### 5. Composition Techniques (组合技术)
 
 - 5.1 Foreground and Background Separation (前景和背景分离)
   - 研究和分析如何在NeRF中实现前景和背景的分离和组合。
@@ -70,7 +70,7 @@
 - 5.3 Multi-Modal Composition (多模态组合)
   - 探讨如何利用多模态数据（如图像和语义信息）来改善NeRF的组合技术。
 
-## 6. Pose Estimation (姿态估计)
+### 6. Pose Estimation (姿态估计)
 
 - 6.1 SLAM-based Methods (基于SLAM的方法)
   - 介绍利用SLAM技术来进行姿态估计的NeRF方法。
@@ -79,7 +79,7 @@
 - 6.3 Multi-View Geometry (多视几何)
   - 研究多视几何技术如何应用于NeRF中的姿态估计。
 
-## 7. Applications (应用)
+### 7. Applications (应用)
 
 - 7.1 Urban Environments (城市环境)
   - 7.1.1 Street Level (街道层面)
@@ -102,7 +102,7 @@
   - 7.4.1 Real-time Rendering (实时渲染)
     - 探讨NeRF在实时渲染方面的应用，包括在VR/AR环境中的表现。
 
-## 8. Human-centric NeRF (以人为中心的NeRF)
+### 8. Human-centric NeRF (以人为中心的NeRF)
 
 - 8.1 Facial Modeling (面部建模)
   - 研究和分析NeRF在面部建模方面的应用。
@@ -112,6 +112,46 @@
   - 介绍利用NeRF进行运动和姿态估计的方法。
 - 8.4 Interaction and Animation (交互和动画)
   - 研究和分析利用NeRF创建交互式和动态3D模型的方法和技术。
+
+## 开源框架
+
+### XRNeRF
+
+- 简介：来自上海人工智能实验室、浙大和商汤的OpenXRLab的开源代码框架，支持场景类神经渲染方法：NeRF, Mip-NeRF, KiloNeRF, Instant-NGP, BungeeNeRF; 人体类神经渲染方法：NeuralBody, AniNeRF, GNR。OpenXRLab其他关于XR的开源代码框架还包括XRSLAM, XRSfM, XRLocalization, XRMoCap, XRMoGen。
+- 开源年份：2022
+- 代码：https://github.com/openxrlab/xrnerf (PyTorch)
+
+### NeRF-Factory
+
+- 简介：源于POSTECH, KAIST, 和Kakao Brain Corp的开源框架。实现了NeRF, NeRF++, DVGO, Plenoxels, Mip-NeRF, Mip-NeRF360, Ref-NeRF等方法，包含NeRF Blender, NeRF LLFF, Tanks and Temples, LF, NeRF-360, NeRF-360-v2, Shiny Blender等数据集。还提供了NeRF可视化工具。
+- 开源年份: 2022
+- 代码：https://github.com/kakaobrain/NeRF-Factory (PyTorch)
+
+###  Kaolin-Wisp
+
+- 简介：NVIDIA出品，Kaolin-Wisp包含多种NeRF, NGLOD, Instant-NGP,VQAD的实现。提供了很多实用功能，例如数据集，图像I/O, mesh处理，射线实用函数，还提供了用于构建神经场的模块例如可微分渲染器，可微分数据结构（octrees, hash grids, triplanar features)，也提供了用于调试的可视化工具，交互式渲染以及训练、日志、训练器类等。
+- 发表年份：EG STAR'22
+- 代码：https://github.com/NVIDIAGameWorks/kaolin-wisp (PyTorch)
+
+### Nerfstudio
+
+- 简介：源自伯克利KAIR-BAIR实验室，Nerfstudio支持多种数据输入pipeline，有多种NeRF的模块化实现，提供了网页实时可视化工具，支持多种导出模态。
+- 发表年份：SIGGRAPH'23
+- 代码：https://github.com/nerfstudio-project/nerfstudio (PyTorch)
+
+### SDFStudio
+
+- 简介：源自图宾根大学和图宾根MPI-IS的Autonomous Vision组，基于NerfStudio开发, SDFStudio提供了一个通用的模块化的神经隐式表面重建框架，主要实现了UniSurf，VolSDF, NeuS三种隐式表面重建方法，支持MLPs, Tri-plane, and Multi-res. feature grids几种场景表示。
+- 开源年份：2022
+- 代码：https://github.com/autonomousvision/sdfstudio (PyTorch)
+
+### NerfAcc
+
+- 简介：同样源于伯克利大学KAIR-BAIR实验室，基于PyTorch的NeRF加速工具箱，可用于训练和推理。主要关注于辐射场体渲染流程中的高效采样, 通用且能在大多数NeRF中即插即用。NerfAcc只需要在已有的代码库中做很小的修改，就能获得很大的速度提升。所有的实现都是基于纯Python的，具有灵活的API。
+- 发表年份：arXiv'23
+- 代码：https://github.com/KAIR-BAIR/nerfacc/ (PyTorch)
+
+
 
 ## 贡献
 
